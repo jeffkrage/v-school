@@ -1,0 +1,19 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    
+}
+.coffee {
+    position: absolute;
+    left: 50px;
+    top: 500px;
+    height: 200px;
+    width: 300px;
+    border: 2px solid red;
+    
+}
+.decaf {
+    height: 400px;
+    width: 555px;
+    border: 2px solid blue;
+}

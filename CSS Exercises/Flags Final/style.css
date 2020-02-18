@@ -1,0 +1,180 @@
+body, html  {
+    margin: 10px;
+
+}
+* {
+    box-sizing: border-box;
+  } 
+h1 {
+    text-align: center;
+}
+
+
+ /*france */
+ .france {
+     width: 33%;
+     font-size: 0px;
+     display: inline-block;
+ }
+ .france > h1 {
+     font-size: medium;
+ }
+
+.france > blue {
+    font-size: medium;
+}
+
+.blue {
+    display: inline-block;
+    background-color: rgb(30, 30, 218);
+    width: 33%;
+    height: 100px;
+} 
+.white {
+    display: inline-block;
+    background-color: white;
+    width: 33%;
+    height: 100px;
+} 
+.red {
+    display: inline-block;
+    background-color:red;
+    width: 33%;
+    height: 100px;
+} 
+/*Germany */
+
+.germany {
+    width: 33%;
+    font-size: 0px;
+    display: inline-block;
+}
+.germany > h1 {
+    font-size: medium;
+}
+
+.black {
+    display: inline-block;
+    background-color: black;
+    width: 33%;
+    height: 100px;
+} 
+.red1 {
+    display: inline-block;
+    background-color: rgb(236, 59, 59);
+    width: 33%;
+    height: 100px;
+} 
+.yellow {
+    display: inline-block;
+    background-color:yellow;
+    width: 33%;
+    height: 100px;
+}
+
+/*Madagascar */
+
+.madagascar {
+    width: 33%;
+    font-size: 0px;
+    display: inline-block;
+
+}
+.madagascar > h1 {
+    font-size: medium;
+}
+
+.white1 {
+    display: inline-block;
+    background-color: white;
+    width: 33%;
+    height: 100px;
+} 
+.container {
+    display: inline-block;
+    width: 33%;
+}
+.red2 {
+    display: block;
+    background-color: rgb(224, 80, 80);
+    height: 100px;
+} 
+.green1{
+    display: block;
+    background-color:rgb(16, 104, 16);
+    height: 100px;
+}
+/*Switzerland */
+
+.switzerland {
+    width: 33%;
+    font-size: 0px;
+    display: inline-block;
+    /* height: 200px; */
+    
+
+}
+.switzerland > h1 {
+    font-size: medium;
+}
+.red3 {
+    display: inline-block;
+    width: 99%;
+    height: 200px;
+    background-color: rgb(224, 80, 80);
+} 
+.cross1 {
+    position: absolute;
+    background-color: white;
+    width: 50px; 
+    height: 200px;
+    top: 304px;
+    left: 150px;
+}
+.cross2 {
+    position: absolute;
+    background-color: white;
+    width: 321px; 
+    height: 50px;
+    top: 375px;
+    left: 19px;
+}
+
+
+/*Gambia */
+
+.gambia {
+    width: 33%;
+    font-size: 0px;
+    display: inline-block;
+    background-color: white;
+    vertical-align: top;
+}
+.gambia > h1 {
+    font-size: medium;
+}
+.GambiaRed{
+    display: block;
+    background-color: #CE1126;
+    width: 33%;
+    height: 50px;
+    margin: 5px
+}
+.GambiaBlue{
+    display: block;
+    background-color: #0C1C8C;
+    width: 33%;
+    height: 50px;
+    margin: 5px
+}
+
+.GambiaGreen {
+    display: block;
+    background-color: #3A7728;
+    width: 33%;
+    height: 50px;
+    margin: 5px
+}
+
+
+

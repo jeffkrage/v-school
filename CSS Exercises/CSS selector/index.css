@@ -1,0 +1,19 @@
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: red;
+}
+.parent > p {
+    color: brown;
+}
+div  > p {
+    color: yellow;
+}
+h4 {
+    color: black;
+}
+li {
+    color: orange;
+}
