@@ -34,11 +34,11 @@ function howAttractedIsLoisLaneToMe( x, y) {
     if (x) { 
         'is not at all attracted'
         
-    } else { 'is "super" attracted...'
-    
+    } else { 
+        'is "super" attracted...'
     }
     // 1 is not at all attracted, 10 is "super" attracted...
-    return math.floor((math.random() * 10) + 1);
+    return Math.floor((Math.random() * 10) + 1);
 }
 
 console.log(howAttractedIsLoisLaneToMe());
