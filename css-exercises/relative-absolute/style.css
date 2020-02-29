@@ -1,0 +1,16 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.coffee {
+    position: relative;
+    left: 55px;
+    width: 425px;
+    border: 2px solid red
+}
+
+.decaf {
+    height: 400px;
+    width: 555px;
+    border: 2px solid blue;
+}

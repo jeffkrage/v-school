@@ -1,0 +1,63 @@
+* {
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+#box1 {
+ border: 2px solid green;
+ padding: 10px;  
+}
+/* always clockwise top, right, bottom, left  when creating padding, margins etc.*/ 
+
+#box2 {
+border: 2px solid green;
+}
+
+#box3 {
+    border: 2px dashed black;
+}
+
+#box3 > h1 {
+    background-color: dodgerblue;
+}
+
+@media only screen and (min-width: 800px) {
+    
+    #box3 {
+        border: 2px dashed green;
+    }
+    #box3 > h1 {
+        background-color: firebrick;
+    }
+}
+
+@media (max-width: 650px) {
+    
+#box3 {
+    
+    border: 5px dashed purple;
+}
+#box3 > h1 {
+    background-color: cornflowerblue;
+}
+}
+@media only screen and (min-width: 650px) and (max-width: 700px){
+body {
+    background-color: yellow;
+}
+}
+/* The order of the Box Model from inside out
+
+1. Content (the element's context such as text)
+2. Padding (the spacing between the content and the element's border)
+3. Border (the element's border)
+4. Margin (the spacing between the elements border and other neighboring elements)
+
+Important note if you don't give <div> text and are trying to create a box you won't 
+see anything unless you give it height. The width is always set to the width of page 
+unless instructed otherwise.
+
+/* RESPONSIVE DESIGN WITH CSS  mobile first design. Design the mobile app first.
+/* Larger Phones 
