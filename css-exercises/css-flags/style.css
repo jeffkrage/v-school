@@ -1,15 +1,46 @@
+body {
+    margin: 0;
+  }
+  
+.parent-div {
+    height: 150px;
+    width: 308px;
+    border: 2px solid black;
+    display: inline-block;
+    
+}
+.child-div {
+    height: 100px;
+    width: 308px;
+}
+
+
 .blue {
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
     background-color: blue;
+    display: inline-block;
+    margin: 0em;
+    
 }
 .yellow {
-    height: 200px;
-    width: 200px;
-    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    background-color:yellow;
+    display: inline-block;
+ 
+    left: 100px;
+    
+   
 }
 .red {
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
     background-color: red;
-}
+    
+    left: 200px;
+    display: inline-block;
+    margin: 0em;
+   
+    
+}   
