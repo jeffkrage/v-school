@@ -4,43 +4,63 @@ body {
   
 .parent-div {
     height: 150px;
-    width: 308px;
-    border: 2px solid black;
+    width: 300px;
+    border: 1px solid black;
     display: inline-block;
     
 }
 .child-div {
     height: 100px;
-    width: 308px;
+    width: 302px;
 }
-
-
 .blue {
     height: 100px;
     width: 100px;
     background-color: blue;
     display: inline-block;
-    margin: 0em;
-    
+       
+}
+
+
+.black {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    display: inline-block;
+    margin-right: -10px;
+
 }
 .yellow {
     height: 100px;
     width: 100px;
-    background-color:yellow;
+    background-color:#ffce00;
     display: inline-block;
- 
-    left: 100px;
+    margin-left: -4px;
     
-   
+
 }
+.white {
+    height: 100px;
+    width: 100px;
+    background-color:white;
+    display: inline-block;
+    margin-left: -4px;
+}
+
 .red {
     height: 100px;
     width: 100px;
-    background-color: red;
-    
-    left: 200px;
+    background-color: #DD0000;
     display: inline-block;
-    margin: 0em;
+    margin-left: -4px;
+
    
     
+}   
+.red1 {
+    height: 100px;
+    width: 100px;
+    background-color: #DD0000;;
+    display: inline-block;
+    margin-left: -4px;
 }   
