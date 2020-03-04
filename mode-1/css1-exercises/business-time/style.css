@@ -1,14 +1,52 @@
-/*Inline/Block elements
+/*Inline/Block elements in COVERED IN NAV BAR Nav, List and inline blcok
 Divs & spans
 Images
-List (navigation bar can count as a "list")
+List (navigation bar can count as a "list") DONE
 Headers/paragraphs
 Semantic HTML (HTML 5 new tags)
-CSS Box model (margin, padding, border, width/height
+CSS Box model (margin, padding, border, width/height DONE WITH PARAGRAPH AND NAV
 Responsive (Media queries, Flexbox, Bootstrap Grid, CSS Grids, or any combination of the above)
 Multiple HTML pages, linked */
-
+html, body {
+    margin: 0;
+    padding: 0;
+}
 
 .main-header {
-background-color: rgb(25, 97, 25);
+    width: 100%;
+    background-color: rgb(25, 97, 25);
+    padding:  8px 16px;
+}
+
+.main-header > div {
+display: inline-block;
+}
+.main-nav {
+    display: inline-block;
+    text-align: right;
+    width: calc (100% - 100px);
+}
+.main-nav__item{
+    display: inline-block;
+}
+.main-nav__items{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+    
+#flex-container {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: ;
+    margin: 20px;
+
+}
+#flex-container > div:nth-child(1){
+    height: 30px;
+    background-color: blue;
+}
+#flex-container > div:nth-child(2){
+    height: 30px;
 }
