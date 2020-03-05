@@ -1,13 +1,19 @@
 {
 	"folders": [
 		{
+			"name": "css1-exercises",
 			"path": "/Users/student/dev/v-school/mode-1/css1-exercises"
 		},
 		{
+			"name": "more-on-selectors-1-start-code 2",
+			"path": "/Users/student/Downloads/more-on-selectors-1-start-code 2"
+		},
+		{
+			"name": "Color Grid",
 			"path": "/Users/student/dev/v-school/mode-0/CSS Exercises/Color Grid"
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "css1-exercises"
+		"liveServer.settings.multiRootWorkspaceName": "more-on-selectors-1-start-code 2"
 	}
 }

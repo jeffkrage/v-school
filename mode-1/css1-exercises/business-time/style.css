@@ -9,25 +9,53 @@ Responsive (Media queries, Flexbox, Bootstrap Grid, CSS Grids, or any combinatio
 Multiple HTML pages, linked */
 html, body {
     margin: 0;
-    padding: 0;
+    padding: 100;
 }
 
 .main-header {
     width: 100%;
     background-color: rgb(25, 97, 25);
     padding:  8px 16px;
+    
+}
+#logo {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 75px;
+  }
+.main-nav__item a {
+    text-decoration: none;
+}
+.main-header a {
+    text-decoration: none;
+    color: white;   
+    font-weight: bold;
 }
 
 .main-header > div {
 display: inline-block;
+
 }
 .main-nav {
     display: inline-block;
     text-align: right;
-    width: calc (100% - 100px);
+    width: calc(100% - 150px);
 }
+.main-nav a:hover, 
+.main-nav a::after {
+    color: black;
+    content: ' (link)';
+    border-bottom: 3px solild white;
+    color: red;
+    
+    
+}
+
 .main-nav__item{
     display: inline-block;
+    margin: 0 16px;
+    
 }
 .main-nav__items{
     margin: 0;
@@ -35,18 +63,27 @@ display: inline-block;
     list-style: none;
 }
     
+#body {
+    border-radius: 50%;
+    padding: 5px;
+    width: 75px;
+    
+  }
 #flex-container {
     border: 1px solid black;
     display: flex;
     justify-content: space-between;
-    flex-direction: ;
+    
     margin: 20px;
-
+}
+.flex-div1 {
+    padding: 10px;
 }
 #flex-container > div:nth-child(1){
-    height: 30px;
-    background-color: blue;
+    height: 100%;
+    background-color: blue;  
 }
 #flex-container > div:nth-child(2){
-    height: 30px;
+    height: 100%;  
+    background-color: brown;
 }
