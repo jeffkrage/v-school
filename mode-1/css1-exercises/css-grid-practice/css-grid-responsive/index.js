@@ -2,7 +2,7 @@ const numbers = [4, 2, 5, 7, 8]
 
 console.log(numbers[3]);
 
-object
+// object
 
 // const user = {
 //         name: 'Chris',

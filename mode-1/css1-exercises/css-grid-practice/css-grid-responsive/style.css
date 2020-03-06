@@ -10,8 +10,8 @@ html, body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    grid-column-gap: 16px;
-    grid-row-gap: 16px;
+    grid-column-gap: 6px;
+    grid-row-gap: 6px;
     }
 
     .container > div {
@@ -29,3 +29,52 @@ html, body {
         background-color: purple;}
     .footer { grid-area: 3 / 1 / 4 / 5;
         background-color: yellow; }
+
+
+@media only screen and (max-width: 768px) {
+    
+    .header { grid-area: 1 / 1 / 2 / 5; 
+        background-color: blue;}
+    .nav { grid-area: 2 / 1 / 3 / 5; 
+        background-color: red;}
+    .main { grid-area: 3 / 1 / 4 / 5; 
+        background-color: orangered;}
+    .side { grid-area: 4 / 1 / 5 / 5; 
+        background-color: orange;}
+    .footer { grid-area: 5 / 1 / 6 / 5; 
+        background-color: yellowgreen;}
+    }
+
+    @media only screen and (min-width: 768px) 
+    and (max-width: 1024px)
+    {
+    
+        .header { grid-area: 1 / 1 / 2 / 5; 
+            background-color: green;}
+        .nav { grid-area: 2 / 1 / 3 / 5; 
+            background-color: orchid}
+        .main { grid-area: 3 / 1 / 4 / 5; 
+            background-color: yellow;}
+        .side { grid-area: 4 / 1 / 5 / 5; 
+            background-color: blueviolet;}
+        .footer { grid-area: 5 / 1 / 6 / 5; 
+            background-color:aqua;}
+        }
+       
+            
+            
+    @media only screen and (min-width: 1024) 
+
+
+    {
+        .header { grid-area: 1 / 1 / 2 / 5; 
+        background-color: red;}
+    .nav { grid-area: 2 / 1 / 3 / 2; 
+        background-color: blue;}
+    .main { grid-area: 2 / 2 / 3 / 4; 
+        background-color: green;}
+    .side { grid-area: 2 / 4 / 3 / 5; 
+        background-color: purple;}
+    .footer { grid-area: 3 / 1 / 4 / 5;
+        background-color: yellow; }
+    }
